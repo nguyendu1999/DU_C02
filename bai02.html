@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bai02</title>
+    <link rel="stylesheet" href="./bai02.css" />
+  </head>
+  <body>
+    <main>
+      <section class="big">
+        <div class="online" style="border: solid">
+          <form>
+            <h1>Thông tin cơ bản</h1>
+            <p>
+              Họ và tên
+              <input type="text" name="text" />
+            </p>
+            <p>
+              ngày tháng năm sinh
+              <input type="date" />
+            </p>
+            <p>
+              Giới tính
+              <input id="name" type="radio" name="radio" />
+              <label for="name">Nam</label>
+              <input id="with" type="radio" name="radio" />
+              <label for="with">Nữ</label>
+              <input id="hight" type="radio" name="radio" />
+              <label for="hight">Khác</label>
+            </p>
+            <p>
+              Tổ hợp xét tuyển<br />
+              <input id="my" type="checkbox" />
+              <label for="my">Toán</label> <br />
+              <input id="he" type="checkbox" />
+              <label for="he">Lý</label> <br />
+              <input id="she" type="checkbox" />
+              <label for="she">Toán</label> <br />
+              <input id="old" type="checkbox" />
+              <label for="old">Anh</label> <br />
+            </p>
+          </form>
+        </div>
+      </section>
+      <section>
+        <div class="offline" style="border: solid">
+          <br />
+          <form>
+            <h2>Thông tin liên lạc</h2>
+            <p>
+              <label for="my">Email</label>
+              <input id="email" required type="email" name="email" />
+              <br />
+              <br />
+              <label for="low">Số điện thoại (*)</label>
+              <input id="low" type="number" name="number" /><br />
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
